@@ -1,0 +1,139 @@
+/* General styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  color: #e0e0e0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #1c1c1c, #252525);
+  padding: 2rem 0;
+  border-bottom: 4px solid #0d7377;
+}
+
+header h1 {
+  color: #64ffda !important;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 0.5rem;
+  font-weight: 100;
+  color: #a7ffeb;
+}
+
+/* Profile Picture */
+.profile-container {
+  position: fixed; /* Keeps the profile picture steady */
+  top: 10%;
+  left: 5%;
+  z-index: 1000; /* Ensures it stays on top */
+  transition: all 0.5s ease-in-out; /* Smooth transition for movement and scaling */
+}
+
+.profile-photo {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid #64ffda;
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+  transition: all 0.5s ease-in-out; /* Smooth transition for resizing */
+}
+
+@media (min-width: 992px) {
+  /* Large screens (lg and up) */
+  .profile-photo {
+    width: 150px; /* Bigger size on large screens */
+  }
+}
+
+.profile-photo:hover {
+  transform: scale(1.1) rotate(10deg); /* Interactive hover effect */
+}
+
+/* Navigation */
+.navbar {
+  background: #203a43 !important;
+  border-bottom: 0px solid #0d7377;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: right;
+  align-items: center; /* Vertically center items */
+  gap: 1.5rem;
+  height: 100%; /* Ensure the ul takes full height of the nav */
+}
+
+.nav-link {
+  color: #64ffda !important;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #e0e0e0 !important;
+  transform: scale(1.1);
+}
+
+/* Logo in Navigation */
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+}
+
+/* Align navbar toggler to the right on smaller screens */
+@media (max-width: 991.98px) {
+  .navbar-toggler {
+    margin-left: auto; /* Push the toggler to the right */
+  }
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 15px;
+  background: #1b1b1b;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  color: #64ffda !important;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  border-bottom: 2px solid #64ffda;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: #64ffda;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: #252525;
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+}
+
+p1 {
+  text-align: justify;
+}

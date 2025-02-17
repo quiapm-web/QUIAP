@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/png" href="PICS/MA Logo.png" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="bg-dark py-4">
+      <div class="container">
+        <div class="text-end text-lg-center">
+          <!-- Center on large screens, right-align on smaller screens -->
+          <h1 class="text-primary fw-bold display-6 display-lg-5">
+            MART ANGEL QUIAP
+          </h1>
+          <p class="text-light fs-6 fs-lg-5">
+            IT Professional | High-Tech Problem Solver | Innovator
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Profile Picture -->
+    <div class="profile-container">
+      <img
+        src="PICS/_ICT4386 copy2.png"
+        alt="Your Profile Photo"
+        class="profile-photo img-fluid"
+      />
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+      <div class="container-fluid">
+        <!-- Toggler Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Content -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <!-- Align items to the right -->
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience & Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#training/courses">Training/Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills & Hobby</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#awards">Awards & Membership</a>
+            </li>
+            <li class="nav-item">
+              <img src="PICS/MA Logo.png" alt="MA Logo" class="logo" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+      <section id="about" class="mb-5">
+        <h2 class="text-primary">About Me</h2>
+        <p class="text-light text-justify">
+          Hello! I’m Mart Angel R. Quiap, an IT professional passionate about
+          optimizing systems and providing reliable technical support. With
+          experience in project management, technical support, and research, I
+          thrive on solving complex challenges and improving processes. My
+          strong problem-solving skills, attention to detail, and ability to
+          collaborate effectively allow me to contribute meaningfully to any
+          team. I take pride in my adaptability and commitment to continuous
+          learning, ensuring that I stay ahead in an ever-evolving tech
+          landscape. From hardware troubleshooting and software configuration to
+          network management and intellectual property, I approach every task
+          with dedication and a results-driven mindset. Above all, I believe
+          that success comes from teamwork, integrity, and a willingness to go
+          the extra mile to support both colleagues and organizational goals.
+        </p>
+      </section>
+
+      <section id="experience" class="mb-5">
+        <h2 class="text-primary">Experience</h2>
+        <ul id="experience-list" class="list-unstyled"></ul>
+      </section>
+
+      <section id="education" class="mb-5">
+        <h2 class="text-primary">Education</h2>
+        <ul id="education-list" class="list-unstyled"></ul>
+      </section>
+
+      <section id="training/courses" class="mb-5">
+        <h2 class="text-primary">Training/Courses</h2>
+        <ul id="training-list" class="list-unstyled"></ul>
+      </section>
+
+      <section id="skills" class="mb-5">
+        <h2 class="text-primary">Skills</h2>
+        <ul id="skills-list" class="list-unstyled"></ul>
+      </section>
+
+      <section id="hobby" class="mb-5">
+        <h2 class="text-primary">Hobby</h2>
+        <ul id="hobby-list" class="list-unstyled"></ul>
+      </section>
+
+      <section id="awards" class="mb-5">
+        <h2 class="text-primary">Awards & Membership</h2>
+        <ul id="awards-list" class="list-unstyled"></ul>
+      </section>
+
+      <section id="membership" class="mb-5">
+        <h2 class="text-primary">Membership</h2>
+        <ul id="membership-list" class="list-unstyled"></ul>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center py-3">
+      <p class="text-light mb-0">
+        © <span id="year"></span> MartAngelQuiap. All Rights Reserved.
+      </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
