@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       title: "Jr. IT Specialist",
       company: "Hi-Precision Diagnostic",
-      duration: "2025 - Present",
+      duration: "2025",
       description: "IT Department",
     },
     {
